@@ -13,3 +13,7 @@ Install Language:
 - check installed languages: tesseract --list-langs
 - Following Languages are available: https://github.com/tesseract-ocr/langdata
 - sudo apt-get install tesseract-ocr-[lan] e.g.:sudo apt-get install tesseract-ocr-eng
+
+Command to convert *.pdf files
+./OCR.sh infile [lan] [-y]
+e.g.: ./OCR.sh filename.pdf deu -y
